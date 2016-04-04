@@ -31,6 +31,8 @@ import createTheme from "../themes/ga";
 // Import custom component
 import Interactive from "../assets/interactive";
 
+import Codepen from "react-codepen";
+
 // Require CSS
 require("normalize.css");
 require("../themes/ga/index.css");
@@ -63,9 +65,12 @@ export default class Presentation extends React.Component {
             <Heading size={2} textSize="1.5em" margin="20px 0px 0px">Hit Your Right Arrow To Begin!</Heading>
           </Slide>
           <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">
-            <Image src={images.kat.replace("/", "")} margin="0px auto 40px" height="293px"/>
+            <Codepen user="bhague1281" hash="NxOdgv" />
             <Heading size={2} caps fit textColor="primary">
               Wait what?
+            </Heading>
+            <Heading size={3} caps textColor="tertiary">
+              That's Right. Codepen in your presentations.
             </Heading>
           </Slide>
           <Slide transition={["zoom", "fade"]} bgColor="primary" notes="<ul><li>talk about that</li><li>and that</li></ul>">
