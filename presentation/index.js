@@ -26,15 +26,14 @@ import {
 import preloader from "spectacle/lib/utils/preloader";
 
 // Import theme
-import createTheme from "spectacle/lib/themes/default";
+import createTheme from "../themes/ga";
 
 // Import custom component
 import Interactive from "../assets/interactive";
 
 // Require CSS
 require("normalize.css");
-require("spectacle/lib/themes/default/index.css");
-
+require("../themes/ga/index.css");
 
 const images = {
   city: require("../assets/city.jpg"),
@@ -46,7 +45,7 @@ const images = {
 preloader(images);
 
 const theme = createTheme({
-  primary: "#ff4081"
+  primary: "#ff0021"
 });
 
 export default class Presentation extends React.Component {
