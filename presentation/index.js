@@ -54,23 +54,17 @@ export default class Presentation extends React.Component {
       <Spectacle theme={theme}>
         <Deck transition={["zoom", "slide"]} transitionDuration={500}>
           <Slide transition={["zoom"]} bgColor="primary">
-            <Heading size={1} fit caps lineHeight={1} textColor="black">
-              Spectacle
+            <Heading size={1} fit caps lineHeight={1}>
+              Intro to ReactJS
             </Heading>
             <Heading size={1} fit caps>
-              A ReactJS Presentation Library
+              A JavaScript library for User Interfaces
             </Heading>
-            <Heading size={1} fit caps textColor="black">
-              Where You Can Write Your Decks In JSX
-            </Heading>
-            <Link href="https://github.com/FormidableLabs/spectacle">
-              <Text bold caps textColor="tertiary">View on Github</Text>
-            </Link>
-            <Text textSize="1.5em" margin="20px 0px 0px" bold>Hit Your Right Arrow To Begin!</Text>
+            <Heading size={2} textSize="1.5em" margin="20px 0px 0px">Hit Your Right Arrow To Begin!</Heading>
           </Slide>
           <Slide transition={["slide"]} bgColor="black" notes="You can even put notes on your slide. How awesome is that?">
             <Image src={images.kat.replace("/", "")} margin="0px auto 40px" height="293px"/>
-            <Heading size={2} caps fit textColor="primary" textFont="primary">
+            <Heading size={2} caps fit textColor="primary">
               Wait what?
             </Heading>
           </Slide>
@@ -83,7 +77,7 @@ export default class Presentation extends React.Component {
           </Slide>
           <Slide transition={["slide"]} bgImage={images.city.replace("/", "")} bgDarken={0.75}>
             <Appear fid="1">
-              <Heading size={1} caps fit textColor="primary">
+              <Heading size={1} caps fit>
                 Full Width
               </Heading>
             </Appear>

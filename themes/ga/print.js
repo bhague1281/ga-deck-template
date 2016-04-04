@@ -13,9 +13,9 @@ var defaultColors = {
 };
 
 var defaultFonts = {
-  primary: "Open Sans Condensed",
-  secondary: "Lobster Two",
-  tertiary: "monospace"
+  primary: "Open Sans",
+  secondary: "Impact",
+  tertiary: "sans-serif"
 };
 
 var print = function print() {

@@ -13,7 +13,7 @@ var defaultColors = {
 };
 
 var defaultFonts = {
-  primary: "PFDinTextCompProBold",
+  primary: "Open Sans",
   secondary: "Impact",
   tertiary: "sans-serif"
 };
@@ -159,10 +159,9 @@ var screen = function screen() {
         borderLeft: "1px solid " + colors.primary,
         paddingLeft: 40,
         display: "block",
-        color: colors.primary,
+        color: colors.tertiary,
         fontSize: "4.9rem",
         lineHeight: 1,
-        fontWeight: "bold"
       },
       cite: {
         color: colors.tertiary,
@@ -202,7 +201,7 @@ var screen = function screen() {
         h1: {
           color: colors.tertiary,
           fontSize: "7.05rem",
-          fontFamily: fonts.primary,
+          fontFamily: fonts.secondary,
           lineHeight: 1,
           fontWeight: "bold",
           margin: 0,
@@ -211,7 +210,7 @@ var screen = function screen() {
         h2: {
           color: colors.secondary,
           fontSize: "5.88rem",
-          fontFamily: fonts.primary,
+          fontFamily: fonts.secondary,
           lineHeight: 1,
           fontWeight: "bold",
           margin: 0
@@ -227,7 +226,7 @@ var screen = function screen() {
         h4: {
           color: "black",
           fontSize: "3.82rem",
-          fontFamily: fonts.primary,
+          fontFamily: fonts.secondary,
           lineHeight: 1,
           fontWeight: "bold",
           margin: "0.5rem auto"
@@ -235,7 +234,7 @@ var screen = function screen() {
         h5: {
           color: "black",
           fontSize: "3.19rem",
-          fontFamily: fonts.primary,
+          fontFamily: fonts.secondary,
           lineHeight: 1,
           fontWeight: "bold",
           margin: "0.5rem auto"
@@ -243,7 +242,7 @@ var screen = function screen() {
         h6: {
           color: "black",
           fontSize: "2.66rem",
-          fontFamily: fonts.primary,
+          fontFamily: fonts.secondary,
           lineHeight: 1,
           fontWeight: "bold",
           margin: "0.5rem auto"
